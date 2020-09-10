@@ -6,13 +6,17 @@ output: html_document
 
 
 
+
 See readme for more information regarding the context 
 
+
 The dataset has been produced from the original dataset coming from UCI HAR Dataset
+
 
 ## Name and path of the file:
 
 *"./data/dataset_step5_tidy.txt"
+
 
 ## Dimensions of the dataset
 
@@ -97,3 +101,12 @@ The dataset has been produced from the original dataset coming from UCI HAR Data
 * Add feature 'activity_name' factor variable to explicit the activities (previously just numbers)
 
 * Melted dataset from original dataset mean computed for each measurement features for each subject for each activities.
+
+
+#### Transformations applied
+
+
+1 - Add feature 'activity_name' factor variable to explicit the activities (previously just numbers)
+
+2 - Melted dataset from original dataset mean computed for each measurement features for each subject for each activities.
+
