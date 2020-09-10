@@ -7,7 +7,6 @@ output: html_document
 
 See readme for more information regarding the context 
 
-
 The dataset has been produced from the original dataset coming from UCI HAR Dataset
 
 
