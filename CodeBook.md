@@ -3,9 +3,6 @@ title: "project_script"
 author: "Mathias"
 date: "10/09/2020"
 output: html_document
-<<<<<<< HEAD
-
-
 
 
 See readme for more information regarding the context 
@@ -15,31 +12,6 @@ The dataset has been produced from the original dataset coming from UCI HAR Data
 
 
 ## Name and path of the file:
-=======
-<<<<<<< HEAD
-
-
-
-See readme for more information regarding the context 
-=======
----
-
-```{r setup, include=FALSE}
-# tidy data set
-tidyDFPath <- "./data/dataset_step5_tidy.txt"
-tidyDF <- read.table(tidyDFPath)
-colnames(tidyDF) <- tidyDF[1,]
-
-```
-
---- See readme for more information regarding the context ---
->>>>>>> 7179374baefaa9d479f1494c00d589439a54ae98
-
-The dataset has been produced from the original dataset coming from UCI HAR Dataset
-
-## Name and path of the file:
-<<<<<<< HEAD
->>>>>>> 6dc4c863c0fc31ce732876240fa45b701b5a6d35
 
 *"./data/dataset_step5_tidy.txt"
 
@@ -127,43 +99,3 @@ The dataset has been produced from the original dataset coming from UCI HAR Data
 * Add feature 'activity_name' factor variable to explicit the activities (previously just numbers)
 
 * Melted dataset from original dataset mean computed for each measurement features for each subject for each activities.
-<<<<<<< HEAD
-
-
-#### Transformations applied
-
-=======
-=======
-```{r}
-tidyDFPath
-```
-
-## Dimensions of the dataset
-```{r}
-dim(tidyDF)
-```
-
-## Name of the Variables
-
-```{r}
-names(tidyDF)
-```
-
-#### Transformations applied
-
-```{r}
-col_to_keep <- grep("std\\(\\)|mean\\(\\)|activity|subject", colnames(DF), value=TRUE)
-
-DF <- DF[,col_to_keep]
-
-```
->>>>>>> 6dc4c863c0fc31ce732876240fa45b701b5a6d35
-
-1 - Add feature 'activity_name' factor variable to explicit the activities (previously just numbers)
-
-2 - Melted dataset from original dataset mean computed for each measurement features for each subject for each activities.
-<<<<<<< HEAD
-
-=======
->>>>>>> 7179374baefaa9d479f1494c00d589439a54ae98
->>>>>>> 6dc4c863c0fc31ce732876240fa45b701b5a6d35
