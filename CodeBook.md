@@ -91,6 +91,7 @@ The dataset has been produced from the original dataset coming from UCI HAR Data
   [67] "fBodyBodyAccJerkMag-std()"  
   [68] "fBodyBodyGyroMag-mean()"  
 
+
 #### Transformations applied
 
 * Add feature 'activity_name' factor variable to explicit the activities (previously just numbers)
